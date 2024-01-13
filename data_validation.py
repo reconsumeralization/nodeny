@@ -6,8 +6,7 @@ from pydantic import BaseModel, ValidationError, validator
 from typing import List, Dict, Any
 
 import spacy
-import logging  # Added this line to import the logging module
-
+import logging  # Ensure this is at the top of the file
 
 class ResponseModel(BaseModel):
     predictions: List[Dict[str, Any]]
@@ -57,6 +56,11 @@ class DataValidation:
         if not isinstance(query, str):
             raise ValueError("Query must be a string")
 
+    def some_method(self):
+        # Replace any custom logging calls with the standard logging calls
+        logging.error("An error message")
+        logging.info("An info message")
+        # Continue with the rest of the method...
 
 class CommunicationFile:
     FILE_PATH = "communication.txt"

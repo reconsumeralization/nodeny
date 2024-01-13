@@ -9,7 +9,7 @@ class APIHandler:
     This class handles API requests and responses.
     """
 
-    def __init__(self, gui):
+    def __init__(self, gui=None):
         """
         Initialize the APIHandler with a GUI instance.
         """
@@ -30,12 +30,15 @@ class APIHandler:
                     )  # Validate the response
                     responses = self.parse_response(data)
                     self.gui.display_responses(responses)
+                    return responses  # Ensure data is always a list or iterable
             except aiohttp.ClientError as e:
                 logging.error(f"Request failed: {e}")
                 # Handle the error appropriately
+                return []  # Return an empty list in case of an error
             except ValueError as e:
                 logging.error(f"Validation error: {e}")
                 # Handle the validation error appropriately
+                return []  # Return an empty list in case of an error
 
     def parse_response(self, data: dict) -> list:
         """
