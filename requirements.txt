@@ -370,7 +370,7 @@ sphinxcontrib-serializinghtml==1.1.9
 SQLAlchemy==1.4.50
 srsly==2.4.8
 stack-data==0.6.3
-streamlit==1.29.0
+streamlit==1.30.0
 structlog==23.2.0
 structlog-sentry==2.0.3
 sympy==1.12
