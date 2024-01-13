@@ -104,7 +104,7 @@ flatbuffers==23.5.26
 fonttools==4.46.0
 frozenlist==1.4.0
 fsspec==2023.12.1
-future==0.18.2
+future==0.18.3
 gast==0.4.0
 gensim==4.3.2
 gevent==23.9.1
