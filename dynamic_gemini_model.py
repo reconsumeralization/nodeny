@@ -10,8 +10,8 @@ class DynamicGeminiModel:
 
     def configure_models(self):
         genai.configure(api_key=self.api_key)
-        self.text_model = genai.GenerativeModel('gemini-pro')
-        self.vision_model = genai.GenerativeModel('gemini-pro-vision')
+        self.text_model = genai.GenerativeModel("gemini-pro")
+        self.vision_model = genai.GenerativeModel("gemini-pro-vision")
 
     def generate_response(self, prompt, is_image_present=False):
         model = self.vision_model if is_image_present else self.text_model

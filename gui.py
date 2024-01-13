@@ -2,17 +2,19 @@ import asyncio
 from tkinter import Tk, Entry, Button, Text, Scrollbar, END
 from api_handler import APIHandler
 
-class GUI:
 
+class GUI:
     def __init__(self):
         self.api_handler = APIHandler(self)
         self.root = Tk()
         self.root.title("Generative Language API GUI")
         self.query_entry = Entry(self.root, width=50)
-        self.submit_button = Button(self.root, text="Submit", command=self.handle_user_input)
+        self.submit_button = Button(
+            self.root, text="Submit", command=self.handle_user_input
+        )
         self.response_text = Text(self.root, width=50, height=10)
         self.scrollbar = Scrollbar(self.root, command=self.response_text.yview)
-        self.response_text['yscrollcommand'] = self.scrollbar.set
+        self.response_text["yscrollcommand"] = self.scrollbar.set
 
     def run(self):
         self.query_entry.pack()

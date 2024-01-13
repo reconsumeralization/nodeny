@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import asyncio
 
+
 # Define the main application class
 class GenerativeLanguageApp:
     def __init__(self, root):
@@ -17,7 +18,9 @@ class GenerativeLanguageApp:
         self.query_input.pack()
 
         # Button to submit query
-        self.submit_button = ttk.Button(self.root, text="Submit", command=self.submit_query)
+        self.submit_button = ttk.Button(
+            self.root, text="Submit", command=self.submit_query
+        )
         self.submit_button.pack()
 
         # Area for displaying API responses
@@ -31,6 +34,7 @@ class GenerativeLanguageApp:
         # Here you would add the asynchronous API request
         # For example: response = await self.api_handler.submit_query(query)
         # And then display the response in the GUI
+
 
 # Create the main window and an instance of the application
 root = tk.Tk()
