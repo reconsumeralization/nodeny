@@ -170,7 +170,7 @@ keras==2.12.0
 keyring==23.5.0
 kiwisolver==1.4.5
 klu==0.1.39
-langchain==0.0.348
+langchain==0.1.0
 langchain-core==0.0.12
 langcodes==3.3.0
 langsmith==0.0.69
