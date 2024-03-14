@@ -171,7 +171,7 @@ keyring==23.5.0
 kiwisolver==1.4.5
 klu==0.1.39
 langchain==0.0.348
-langchain-core==0.0.12
+langchain-core==0.1.30
 langcodes==3.3.0
 langsmith==0.0.69
 language-selector==0.1
