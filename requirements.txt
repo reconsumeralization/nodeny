@@ -139,7 +139,7 @@ httptools==0.6.1
 httpx==0.25.2
 huggingface-hub==0.19.4
 humanfriendly==10.0
-idna==3.3
+idna==3.7
 imagesize==1.4.1
 importlib-metadata==4.6.4
 iniconfig==2.0.0
