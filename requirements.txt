@@ -249,7 +249,7 @@ parso==0.8.3
 partd==1.4.1
 pastel==0.2.1
 pexpect==4.8.0
-Pillow==10.1.0
+Pillow==10.3.0
 pipx==1.0.0
 pkginfo==1.8.2
 platformdirs==4.1.0
