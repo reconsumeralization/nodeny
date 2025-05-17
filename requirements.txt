@@ -95,7 +95,7 @@ filelock==3.13.1
 fire==0.5.0
 flake8==6.1.0
 Flask==3.0.0
-Flask-Cors==4.0.0
+Flask-Cors==6.0.0
 Flask-JWT-Extended==4.5.3
 Flask-Migrate==4.0.5
 Flask-SQLAlchemy==3.1.1
