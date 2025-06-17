@@ -260,7 +260,7 @@ portalocker==2.8.2
 preshed==3.0.9
 prompt-toolkit==3.0.41
 proto-plus==1.23.0
-protobuf==4.23.3
+protobuf==4.25.8
 psutil==5.9.6
 psycopg2-binary==2.9.9
 ptyprocess==0.7.0
