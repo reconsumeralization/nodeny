@@ -2,7 +2,7 @@ absl-py==1.4.0
 aio-pika==8.2.3
 aiofiles==23.1.0
 aiogram==2.25.2
-aiohttp==3.9.4
+aiohttp==3.12.14
 aiohttp-retry==2.8.3
 aiohttp-sse-client==0.2.1
 aiormq==6.4.2
