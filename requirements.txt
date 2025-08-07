@@ -403,7 +403,7 @@ torch==2.1.2
 tornado==6.4
 tqdm==4.66.1
 traitlets==5.14.0
-transformers==4.36.0
+transformers==4.53.0
 triton==2.1.0
 trulens==0.13.4
 ttystatus==0.38
