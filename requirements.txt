@@ -308,7 +308,7 @@ python-debian==0.1.43+ubuntu1.1
 python-dotenv==1.0.0
 python-engineio==4.8.0
 python-on-whales==0.68.0
-python-socketio==5.10.0
+python-socketio==5.14.0
 python3-xlib==0.15
 pytweening==1.0.7
 pytz==2022.1
