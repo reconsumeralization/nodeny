@@ -101,7 +101,7 @@ Flask-Migrate==4.0.5
 Flask-SQLAlchemy==3.1.1
 Flask-WTF==1.2.1
 flatbuffers==23.5.26
-fonttools==4.46.0
+fonttools==4.61.0
 frozenlist==1.4.0
 fsspec==2023.12.1
 future==0.18.3
