@@ -23,7 +23,7 @@ autopep8==2.0.4
 axios==0.4.0
 azure-cognitiveservices-language-textanalytics==0.2.1
 azure-common==1.1.28
-azure-core==1.29.5
+azure-core==1.38.0
 azure-mgmt-core==1.4.0
 Babel==2.9.1
 bcrypt==3.2.0
