@@ -212,7 +212,7 @@ multidict==5.2.0
 murmurhash==1.0.10
 mypy-extensions==1.0.0
 nbclient==0.9.0
-nbconvert==7.12.0
+nbconvert==7.17.0
 nbformat==5.9.2
 neo4j==5.2.1
 nest-asyncio==1.5.8
